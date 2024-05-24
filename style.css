@@ -1,0 +1,47 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 2s;
+    color: aliceblue;
+    /* margin: 0 auto; */
+}
+
+.box:hover{
+    /* Rotate */
+
+    /* transform: rotateX(360deg);  */
+    /* transform: rotateY(180deg); */
+     /* transform: rotateZ(180deg);  */
+    /* transform: rotateX(-45deg) rotateY(-45deg) rotateZ(-45deg); */
+    /* hammasini bir qatorda yozish kerak */
+
+    /* translate  */
+
+    /* transform: translateX(-300px); */
+    /* transform: translateY(300px) translateX(900px) rotateZ(360deg); */
+
+    /* scale  */
+
+    /* transform: scaleX(-2); */
+    /* transform: scaleY(2) scaleX(3); */
+    /* transform: scale(2, 1.5); */
+    /* transform: scale(2); */
+
+    /* skew  */
+
+    /* transform: skewX(-90deg); */
+    /* transform: skewY(-30deg); */
+    /* transform: skewY(-30deg) skewX(-60deg); */
+
+    /* box-shadow: -5px -8px 6px black; */
+
+
+    /* transform-origin: 0% 0%; */
+    transform: translate(1000px, -300px) rotateX(180deg) rotateY(360deg) rotateZ(1800deg) scale(0.7) skew(45deg);
+    background-color: blue;
+}
+/* 
+h1:hover{
+    transform: scaleY(2) scaleX(3);
+} */
